@@ -12,7 +12,7 @@ body{
     color: #3d3d3d;
 }
 
-/* headings and logo */
+/* headings and title */
 
 h1 {
     font-family: Montserrat, sans-serif;
@@ -56,5 +56,51 @@ h2 {
     color: #fff;
 }
 
+/* hero image */
+
+#hero-container {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 100%;
+    width: 100%;
+    background: url(../images/hero-image.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+#hero-text-one, #hero-text-two, #hero-text-three {
+    color: #fff;
+}
+
+/*#hero-text-one {
+    font-size: 350%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    top: 200px;
+    Left: 950px;
+    position: absolute;
+}
 
 
+#hero-text-two {
+    font-size: 350%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    top: 300px;
+    Left: 1050px;
+    position: absolute;
+}
+
+#hero-text-three {
+    font-size: 350%;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    top: 400px;
+    Left: 1150px;
+    position: absolute;
+}*/
