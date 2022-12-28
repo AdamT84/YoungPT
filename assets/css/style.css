@@ -9,7 +9,8 @@
 body{
     font-family: Hind, sans-serif;
     font-weight: 300;
-    color: #3d3d3d;
+    color: #0b2851;
+    background-color: whitesmoke;
 }
 
 /* headings and title */
@@ -35,7 +36,7 @@ h2 {
 /* navigation links */
 
 #nav {
-    font-size: 175%;
+    font-size: 150%;
     float: right;
     margin-right: 25px;
     margin-top: 20px;
@@ -69,38 +70,53 @@ h2 {
 #hero-image {
     height: 100%;
     width: 100%;
-    background: url(../images/hero-image.png) no-repeat center; 
+    background: url(../images/hero_main.png) no-repeat bottom; 
     background-size: cover;    
     position: relative;
 }
 
 #hero-text-one, #hero-text-two, #hero-text-three {
-    color: #fff;
-}
-
-/*#hero-text-one {
-    font-size: 350%;
+    font-size: 300%;
+    color: goldenrod;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
+    
+}
+
+#hero-text-one {
     top: 200px;
     right: 150px;
     position: absolute;
 }
 
 #hero-text-two {
-    font-size: 350%;
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
     top: 300px;
     right: 150px;
     position: absolute;
 }
 
 #hero-text-three {
-    font-size: 350%;
-    font-family: Montserrat, sans-serif;
-    text-transform: uppercase;
     top: 400px;
     right: 150px;
     position: absolute;
-}*/
+}
+
+/* main section */
+
+#main h2 {
+    text-align: center;
+    font-size: 300%;
+}
+
+#main img {
+    height: 35%;
+    width: 20%;
+    float: right;
+}
+
+#main p {
+    width: 75%;
+    float: left;
+    font-size: 170%;
+    margin: 15px;
+}
