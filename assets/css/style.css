@@ -38,6 +38,7 @@ h2 {
     font-size: 175%;
     float: right;
     margin-right: 25px;
+    margin-top: 20px;
 }
 
 #nav li {
@@ -77,8 +78,8 @@ h2 {
     color: #fff;
 }
 
-#hero-text-one {
-    font-size: 300%;
+/*#hero-text-one {
+    font-size: 350%;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     top: 200px;
@@ -87,7 +88,7 @@ h2 {
 }
 
 #hero-text-two {
-    font-size: 300%;
+    font-size: 350%;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     top: 300px;
@@ -96,25 +97,10 @@ h2 {
 }
 
 #hero-text-three {
-    font-size: 300%;
+    font-size: 350%;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     top: 400px;
     right: 150px;
     position: absolute;
-}
-
-/* home page */
-
-#home {
-    width: 65%;
-    font-size: 150%;
-    color: #3d3d3d;
-    float: left;
-    padding: 10px 10px;
-}
-
-#home h2 {
-    color: #3d3d3d;
-    padding: 5px 5px;
-}
+}*/
