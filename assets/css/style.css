@@ -11,6 +11,7 @@ body {
     color: #0b2851;
     font-family: hind, sans-serif;
     background-color: #f5f5f5;
+    font-size: 90%;
 }
 
 /* headings and title */
@@ -142,4 +143,35 @@ h2 {
     color: #f2c742;
     padding: 15px;
     font-size: 200%;
+    background-color: #0b2851;
+    border-radius: 15%;    
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+    background-color: #0b2851;
+}
+
+.social {
+    text-align: center;
+}
+
+.social > li {
+    display: inline;
+}
+
+.social i {
+    font-size: 200%;
+    color: #f2c742;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* media quries */
+
+/* large to medium screens from 1200px and below */
+@media screen and (max-width: 1200px) {
+    
 }
