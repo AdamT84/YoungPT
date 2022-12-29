@@ -9,8 +9,8 @@
 body{
     font-family: Hind, sans-serif;
     font-weight: 300;
-    color: #0b2851;
-    background-color: whitesmoke;
+    color: #fff;
+    background-color: #151515;
 }
 
 /* headings and title */
@@ -18,19 +18,13 @@ body{
 h1 {
     font-family: Montserrat, sans-serif;
     font-weight: 600;
-    color: #3d3d3d;
+    color: #fff;
 }
 
 h2 {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
-    color: #3d3d3d;
-}
-
-#title {
-    float: left;
-    font-size: 300%;
-    margin-left: 25px;
+    color: #fff;
 }
 
 /* navigation links */
@@ -38,7 +32,8 @@ h2 {
 #nav {
     font-size: 150%;
     float: right;
-    margin-right: 25px;
+    z-index: 1000;
+    margin-right: 150px;
     margin-top: 20px;
 }
 
@@ -49,13 +44,13 @@ h2 {
 }
 
 #nav a {
-    color: inherit;
+    color: #fff;
     text-decoration: none;
 }
 
 #nav a:hover {
-    background-color: #3d3d3d;
-    color: #fff;
+    background-color: #fff;
+    color: #3d3d3d;
 }
 
 /* hero image */
@@ -63,23 +58,23 @@ h2 {
 #hero-container {
     height: 600px;
     width: 100%;
-    overflow: hidden;
     position: relative;
+    z-index: -1000;
 }
 
 #hero-image {
     height: 100%;
     width: 100%;
-    background: url(../images/hero_main.png) no-repeat bottom; 
-    background-size: cover;    
+    background: url(../images/hero_image.png) no-repeat bottom; 
     position: relative;
 }
 
 #hero-text-one, #hero-text-two, #hero-text-three {
-    font-size: 300%;
-    color: goldenrod;
+    font-size: 200%;
+    color: #fff;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
+    text-decoration: underline;
     
 }
 
@@ -104,8 +99,9 @@ h2 {
 /* main section */
 
 #main h2 {
-    text-align: center;
+    text-align: left;
     font-size: 300%;
+    margin-bottom: 50px;
 }
 
 #main img {
@@ -115,8 +111,9 @@ h2 {
 }
 
 #main p {
-    width: 75%;
+    width: 70%;
     float: left;
-    font-size: 170%;
-    margin: 15px;
+    font-size: 125%;
+    margin-left: 50px;
+    padding: 25px;
 }
