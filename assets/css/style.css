@@ -14,18 +14,18 @@ body {
     font-size: 90%;
 }
 
-/* headings and title */
+/* headings */
 
 h1 {
     font-family: Montserrat, sans-serif;
     font-weight: 600;
-    color: #0b2851;
+    color: #f2c742;
 }
 
 h2 {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
-    color: #0b2851;
+    color: #f2c742;
 }
 
 /* navigation links */
@@ -89,14 +89,14 @@ h2 {
     position: absolute;
 }
 
-/* main section */
+/* welcome and about me */
 
 .flex {
     display: flex;
     flex-direction: column;
 }
 
-h2 {
+h1, h2 {
     margin: 15px;
     text-align: center;
     font-size: 150%;
@@ -110,6 +110,8 @@ h2 {
     margin: 30px;
 }
 
+/* my qualifications */
+
 #lists {
     display: flex;
     flex-direction: row;
@@ -122,6 +124,8 @@ h2 {
     margin: 20px;
     text-align: center;
 }
+
+/* training options */
 
 #options {
     text-align: center;
