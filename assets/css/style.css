@@ -32,16 +32,19 @@ h2 {
 
 #nav {
     font-size: 150%;
-    float: right;
-    z-index: 1000;
-    margin-right: 150px;
+    text-align: center;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
 #nav li {
     list-style-type: none;
     padding: 5px;
     display: inline;
+    flex: 100%;
 }
 
 #nav a {
@@ -60,44 +63,38 @@ h2 {
     height: 600px;
     width: 100%;
     position: relative;
-    z-index: -1000;
 }
 
 #hero-image {
     height: 100%;
     width: 100%;
-    background: url(../images/heronew.png) no-repeat bottom; 
+    background: url(../images/hero_main.png) no-repeat center; 
     position: relative;
 }
 
-#hero-text-one, #hero-text-two, #hero-text-three {
+#hero-text {
     font-size: 200%;
-    color: #0b2851;
+    color: #f2c742;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
-    text-decoration: solid;
-    
+    display: flex;
+    flex-wrap: wrap;
+  
 }
 
-#hero-text-one {
-    top: 200px;
-    right: 150px;
-    position: absolute;
-}
-
-#hero-text-two {
-    top: 300px;
-    right: 150px;
-    position: absolute;
-}
-
-#hero-text-three {
-    top: 400px;
-    right: 150px;
+#hero-text {
+    bottom: 25px;
+    right: 50px;
+    left: 50px;
     position: absolute;
 }
 
 /* main section */
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
 
 h2 {
     margin: 15px;
@@ -107,44 +104,42 @@ h2 {
     color: #f2c742;
 }
 
-#main, #about, #qualifications {
+.main {
     width: auto;
     font-size: 150%;
     margin: 30px;
 }
 
-#list1 {
-    width: auto;
-    float: left;
-    text-align: left;
-    margin-left: 825px;
-    margin-right: 10px;
-    margin-bottom: 50px;
+#lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-#list2 {
-    width: auto;
-    float: right;
-    text-align: left;
-    margin-right: 825px;
-    margin-left: 10px;
-    margin-bottom: 50px; 
+#list1, #list2, #list3 {
+    list-style: none;
+    margin: 20px;
+    text-align: center;
 }
 
 #options {
     text-align: center;
-    width: 100%;
-    margin: 50px;
-    display: inline-block;
+    width: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-#options span {
-    margin: 25px;  
+#options span { 
     color: #f2c742;
-    padding: 15px;
-    font-size: 200%;
-    background-color: #0b2851;
-    border-radius: 15%;    
+    padding: 5px;
+    margin: 10px;
+    font-size: 175%;
+    background-color: #0b2851; 
 }
 
 /* footer */
@@ -167,11 +162,4 @@ footer {
     color: #f2c742;
     margin: 15px;
     padding: 15px;
-}
-
-/* media quries */
-
-/* large to medium screens from 1200px and below */
-@media screen and (max-width: 1200px) {
-    
 }
