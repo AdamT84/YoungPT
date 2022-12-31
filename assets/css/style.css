@@ -70,6 +70,7 @@ h2 {
     width: 100%;
     background: url(../images/hero_main.png) no-repeat center; 
     position: relative;
+    background-size: cover;
 }
 
 #hero-text {
@@ -96,18 +97,27 @@ h2 {
     flex-direction: column;
 }
 
-h1, h2 {
-    margin: 15px;
+.flex h1 {
+    margin: 5px;
     text-align: center;
-    font-size: 150%;
-    text-decoration: underline;
+    font-size: 41px;
+    color: #f2c742;
+}
+
+.flex h2 {
+    margin: 5px;
+    text-align: center;
+    font-size: 36px;
     color: #f2c742;
 }
 
 .main {
     width: auto;
-    font-size: 150%;
-    margin: 30px;
+    font-size: 21px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /* my qualifications */
@@ -142,7 +152,7 @@ h1, h2 {
     color: #f2c742;
     padding: 5px;
     margin: 10px;
-    font-size: 175%;
+    font-size: 21px;
     background-color: #0b2851; 
 }
 
@@ -167,3 +177,53 @@ footer {
     margin: 15px;
     padding: 15px;
 }
+
+/* training */
+
+.why_train {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 21px;
+    width: 80%;
+    margin: 0 0 5% 5%;
+}
+
+.why_train h1 {
+    text-align: center;
+    font-size: 41px;
+    color: #f2c742;
+} 
+
+.why_train h2 {
+    font-size: 30px;
+    color: #f2c742;
+    padding: 10px;
+}
+
+.why_train p {
+    padding: 10px;
+}
+
+#general, #strength, #natal {
+    width: 100%;
+    padding: 5px
+}
+
+.general, .strength, .natal {
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+}
+
+#weight, #flexibility, #mental {
+    width: 100%;
+    padding: 5px;
+}
+
+.weight, .flexibility, .mental {
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+}
+
