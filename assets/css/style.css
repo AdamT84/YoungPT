@@ -178,15 +178,18 @@ footer {
     padding: 15px;
 }
 
-/* training */
+/* training page */
 
 .why_train {
+    width: auto;
+    font-size: 21px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 21px;
-    width: 80%;
-    margin: 0 0 5% 5%;
 }
 
 .why_train h1 {
@@ -214,6 +217,7 @@ footer {
     width: 300px;
     height: 150px;
     padding: 5px;
+    float: right;
 }
 
 #weight, #flexibility, #mental {
@@ -225,5 +229,65 @@ footer {
     width: 300px;
     height: 150px;
     padding: 5px;
+    float: left;
 }
+
+/* pricing page */
+
+.pricing {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pricing h1 {
+    text-align: center;
+    font-size: 41px;
+    color: #f2c742;
+}
+
+#price {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.price {
+    width: 500px;
+    height: 150px;
+    background-color: #0b2851;
+    color: #f2c742;
+    margin-bottom: 20px;
+}
+
+.price h2 {
+    padding-top: 20px;
+}
+
+.price p {
+    padding: 25px;
+    font-size: 150%;
+}
+
+#cancel {
+    display: flex;
+    flex-direction: column;
+}
+
+#cancel h2 {
+    margin-top: 25px;
+
+}
+
+#cancel ul {
+    list-style: none;
+}
+
+/* contact form */
+
+
+
+
 
