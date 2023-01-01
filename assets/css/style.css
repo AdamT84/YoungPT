@@ -33,14 +33,6 @@ h2 {
     font-size: 36px;
 }
 
-.h2center {
-    font-family: Montserrat, sans-serif;
-    font-weight: 500;
-    color: #f2c742;
-    margin: 5px;
-    font-size: 36px;
-}
-
 /* Styles text on all pages */
 
 .main {
@@ -112,6 +104,12 @@ h2 {
     right: 50px;
     left: 50px;
     position: absolute;
+}
+
+/* index h2 style */
+
+.index_h2 {
+    text-align: center;
 }
 
 /* my qualifications */
@@ -226,12 +224,6 @@ footer {
     height: 100%;
 }
 
-.pricing h1 {
-    text-align: center;
-    font-size: 41px;
-    color: #f2c742;
-}
-
 #price {
     display: flex;
     flex-direction: row;
@@ -276,6 +268,7 @@ footer {
 .formhead p {
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .formhead {
@@ -283,9 +276,8 @@ footer {
 }
 
 #form {
-    display: block;
-    text-align: center;
-    margin: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 input {
@@ -294,6 +286,17 @@ input {
     border: 2px solid #f2c742;
     border-radius: 10px;
     width: 300px;
+}
+
+#submit:hover {
+    background-color: #0b2851;
+    color: #f2c742;
+}
+
+#submit {
+    width: 150px;
+    background-color: #f2c742;
+    color: #0b2851;
 }
 
 #lauren {
