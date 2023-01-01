@@ -20,12 +20,36 @@ h1 {
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     color: #f2c742;
+    margin: 5px;
+    text-align: center;
+    font-size: 41px;
 }
 
 h2 {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     color: #f2c742;
+    margin: 5px;
+    font-size: 36px;
+}
+
+.h2center {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color: #f2c742;
+    margin: 5px;
+    font-size: 36px;
+}
+
+/* Styles text on all pages */
+
+.main {
+    width: auto;
+    font-size: 21px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /* navigation links */
@@ -88,36 +112,6 @@ h2 {
     right: 50px;
     left: 50px;
     position: absolute;
-}
-
-/* welcome and about me */
-
-.flex {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex h1 {
-    margin: 5px;
-    text-align: center;
-    font-size: 41px;
-    color: #f2c742;
-}
-
-.flex h2 {
-    margin: 5px;
-    text-align: center;
-    font-size: 36px;
-    color: #f2c742;
-}
-
-.main {
-    width: auto;
-    font-size: 21px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 /* my qualifications */
@@ -190,17 +184,9 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
-
-.why_train h1 {
-    text-align: center;
-    font-size: 41px;
-    color: #f2c742;
 } 
 
 .why_train h2 {
-    font-size: 30px;
-    color: #f2c742;
     padding: 10px;
 }
 
@@ -210,7 +196,7 @@ footer {
 
 #general, #strength, #natal {
     width: 100%;
-    padding: 5px
+    padding: 5px;
 }
 
 .general, .strength, .natal {
@@ -287,7 +273,30 @@ footer {
 
 /* contact form */
 
+.formhead p {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.formhead {
+    width: 80%;
+}
 
+#form {
+    display: block;
+    text-align: center;
+    margin: 30px;
+}
 
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #f2c742;
+    border-radius: 10px;
+    width: 300px;
+}
 
+#lauren {
+    display: block;
+    text-align: center;
+}
