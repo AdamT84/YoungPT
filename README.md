@@ -1,5 +1,7 @@
 # Young PT
 
+[Live Site](https://adamt84.github.io/YoungPT/)
+
 Welcome to Young PT! This website details the personal training services offered by Lauren Young in the City of London and surrounding areas. This website is aimed anyone in the locale wanting to find out more information on personal training, general fitness or weight loss. 
 Young PT will be useful for potential clients to find out more about Lauren, her background and qualifications. Also the types of training available and will include important details such as contact details and training locations. 
 
@@ -65,3 +67,67 @@ Young PT will be useful for potential clients to find out more about Lauren, her
 
 # Testing
 
+Continual testing was performed during the development of this site by using DevTools, ensuring that not only did the layout look as intended but also behaved as intended. Once site had uploaded to GitHub repository more thorough testing was completed as outlined below.
+
+- The tests were carried out on iOS, MacOS, Windows and Android operating systems
+- Devices used in testing were Macbook Pro 16", iMac 27", iPad Pro, iPhone 8 & 12, Lenovo X1 Yoga and Samsung Galaxy S20
+- Browsers used in testing: Safari, Chrome (both on Windows and MacOS), Edge and Firefox
+
+## Tests carried out on all pages
+
+- Test pages load correctly across all operating systems and devices
+- Test pages are all responsive and clearly viewable on different screen sizes
+- Test pages load at an acceptable speed and no images are slow to load
+- Test navigation links on all pages work and link to correct pages
+- Test social media footer links on all pages to ensure these launch in a new tab and link to correct site
+
+## Additional tests carried out on contact_page.html
+
+- Test to ensure form is clearly readable with placeholder text in each input box
+- Test to ensure data is required in all input boxes
+- Test to ensure a correctly formatted email address with @ is required in email field
+- Test that data in form is sent correctly
+
+## Validator Testing
+
+- HTML
+
+    - All pages had their HTML tested with the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadamt84.github.io%2FYoungPT%2Findex.html) and no errors were returned.
+
+- CSS
+
+    - Stylesheet.css was passed though the official [W3C (Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadamt84.github.io%2FYoungPT%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) and no errors were returned
+
+## Bugs Encountered
+
+- Hero image formatting on training.html would leave a large gap to the right when viewed on mobile screen size yet the image appeared perfectly on all other screens. Issue was due to adding a margin to content on the page when a margin was already being applied from a parent element, effectively doubling the margin. Once this was removed the image displayed as expected. 
+
+- Contact form not sending data giving an 405 error. Issue was cause by and incorrect action URL in the form element.
+
+# Deployment
+
+This site has been deployed to GitHub Pages. THe steps needed to deploy are listed below:
+
+- In the GitHub repository select settings
+- Once on the settings page select pages from lefthand menu
+- You will now see Build and Deployment options
+- Look for the "Branch" heading
+- Here you will see a drop down menu with the options none and main
+- Select main and then hit save
+- Within a few minutes a ribbon will appear detailing that the site is live and the deployment was successful
+
+[Click here to visit live site](https://adamt84.github.io/YoungPT/)
+
+# Credits
+
+## Content
+
+- Text for website was taken from [Young-PT](http://young-pt.com/) and edited by the developer with permission from site owner
+- Code for social icons on footer was taken from the Love Running a Code Institute walkthough project
+- Icons used on site were from [Font Awesome](https://fontawesome.com/)
+
+## Media
+
+- Photo used for hero image was taken from [Shutterstock](https://www.shutterstock.com/) and edited by the developer 
+- Photo used for training.html were taken from [Adobe Express](https://www.adobe.com/express/?sdid=SL4KM9XN&mv=search&ef_id=EAIaIQobChMIktLTurGp_AIV0AGtBh3FAgNLEAAYASAAEgJ6T_D_BwE:G:s&s_kwcid=AL!3085!3!589020195299!p!!g!!express%20adobe!16624093353!135127940375) and edited by the developer
+- Photo of Lauren Young on contact page taken from [Young-PT](http://young-pt.com/) and edited by the developer with permission from site owner
