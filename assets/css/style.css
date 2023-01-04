@@ -10,7 +10,7 @@ body {
     font-weight: 250;
     color: #0b2851;
     font-family: hind, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ffff;
 
 }
 
@@ -117,11 +117,9 @@ h2 {
 #options {
     text-align: center;
     width: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 5px, 20px, 20px, 25px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -131,6 +129,11 @@ h2 {
     margin: 10px;
     font-size: 21px;
     background-color: #0b2851; 
+    border-radius: 5%;
+}
+
+.welcome_p p {
+    text-align: center;
 }
 
 /* my qualifications */
@@ -138,8 +141,7 @@ h2 {
 #lists {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #list1, #list2, #list3 {
@@ -152,15 +154,12 @@ h2 {
 
 .pricing {
     text-align: center;
-    width: 100%;
-    height: 100%;
 }
 
 #prices {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }  
 
 .price {
@@ -169,6 +168,7 @@ h2 {
     border-radius: 50%;
     background-color: #0b2851;
     color: #f2c742;
+    margin: 20px;
 }
 
 .price p {
@@ -176,21 +176,21 @@ h2 {
     margin-top: 25%;
 }
 
-#session_includes h3 {
+.session_includes h3 {
     margin-top: 25px;
     color: #f2c742;
     font-size: 30px;
 
 }
 
-#session_includes ul {
+.session_includes ul {
     list-style: none;
 }
 
 /* footer */
 
 footer {
-    height: 175px;
+    height: 200px;
     background-color: #0b2851;
 }
 
@@ -198,7 +198,6 @@ footer {
     color: #f2c742;
     text-align: center;
     font-size: 21px;
-    margin-top: 5px;
 }
 
 .social {
@@ -213,51 +212,37 @@ footer {
     font-size: 200%;
     color: #f2c742;
     margin: 10px;
-    padding: 15px;
 }
 
 /* training page */
 
 .why_train {
-    width: auto;
     font-size: 21px;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 25px;
     margin-bottom: 25px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-} 
+}
 
 .why_train h2 {
-    padding: 10px;
+    font-size: 30px;
+}
+
+.why_train span {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
 }
 
 .why_train p {
     padding: 10px;
 }
 
-#general, #strength, #natal {
-    width: 100%;
-    padding: 5px;
-}
-
-.general, .strength, .natal {
+.why_train img {
     width: 300px;
-    padding: 5px;
-    float: right;
-}
-
-#weight, #flexibility, #mental {
-    width: 100%;
-    padding: 5px;
-}
-
-.weight, .flexibility, .mental {
-    width: 300px;
-    padding: 5px;
-    float: left;
+    max-height: 169px;
 }
 
 /* contact form */
@@ -277,13 +262,16 @@ footer {
     justify-content: center;
 }
 
-input {
+input, textarea{
     padding: 10px;
     margin: 5px;
     border: 2px solid #f2c742;
     border-radius: 10px;
     width: 300px;
+    font-family: hind, sans-serif;
+    color: #0b2851;
 }
+
 
 #submit:hover {
     background-color: #0b2851;
@@ -300,3 +288,36 @@ input {
     display: block;
     text-align: center;
 }
+
+/* Media queries */
+
+/* For large to medium screens 1200px wide and lower */
+@media screen and (max-width: 1200px) {
+    .responsive_content {
+        width: 80%;
+        margin: auto;
+        align-content: center;
+    }
+
+    #options {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .price {
+        margin: auto;
+    }
+
+    #lists {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .why_train div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+/* For medium screens from 950px and lower */
