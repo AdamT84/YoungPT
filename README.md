@@ -13,7 +13,7 @@ Young PT will be useful for potential clients to find out more about Lauren, her
 
 -  Navigation Bar
 
-    - The Navigation bar is fully responsive and aligned centrally at the top of all pages and includes links to Home, Training, Pricing and Contact pages. This will ensure the navigation experience is the same across the entire site.
+    - The Navigation bar is fully responsive and aligned centrally at the top of all pages and includes links to Home, Training and Contact pages. This will ensure the navigation experience is the same across the entire site.
     - The value for the user is a simple navigation method that allows access to any page from any page. 
 
 ![screenshot](screenshots/youngpt-navigation.png)
@@ -48,19 +48,19 @@ Young PT will be useful for potential clients to find out more about Lauren, her
 
 - Footer
 
-    - The footer contains links to Facebook, Twitter and Instagram and apears on all pages making it easy for users to link to social media.
-    - This will allow the user to visit the young PT social sites from every page and encourage them to connect.
+    - The footer contains links to Facebook, Twitter and Instagram and apears on all pages making it easy for users to link to social media. It also includes Lauren's email and phone number on all pages.
+    - This will allow the user to visit the young PT social sites from every page and encourage them to connect. It will also allow users imediate access to Lauren's contact page without having to visit a specific page.
 
 ![screenshot](screenshots/youngpt-footer.png)
 
 ### Future Features
 
 - Add animation to the logo on the landing page image to have it move rather just be static.
-- Booking form to allow user to book a session not just contact.
+- Booking form to allow user to book a session not just contact by imbedding a calendar into the site.
 
 # Testing
 
-Continual testing was performed during the development of this site by using DevTools, ensuring that not only did the layout look as intended but also behaved as intended. Once site had uploaded to GitHub repository more thorough testing was completed as outlined below.
+Continual testing was performed during the development of this site by using DevTools, ensuring that not only did the layout look as intended but also behaved as intended. Once the site had been uploaded to GitHub repository more thorough testing was completed as outlined below.
 
 - The tests were carried out on iOS, MacOS, Windows and Android operating systems
 - Devices used in testing were Macbook Pro 16", iMac 27", iPad Pro, iPhone 8 & 12, Lenovo X1 Yoga and Samsung Galaxy S20
@@ -123,7 +123,7 @@ This site has been deployed to GitHub Pages. THe steps needed to deploy are list
 
 - Text for website was taken from [Young-PT](http://young-pt.com/) and edited by the developer with permission from site owner
 - Code for social icons on footer was taken from the Love Running a Code Institute walkthough project
-- Input action URL for Contact_Page.html was take from Code Institute
+- Input action URL for Contact_Page.html contact form was take from Code Institute
 - Icons used on site were from [Font Awesome](https://fontawesome.com/)
 
 ## Media
