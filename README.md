@@ -5,7 +5,7 @@
 Welcome to Young PT! This website details the personal training services offered by Lauren Young in the City of London and surrounding areas. This website is aimed anyone in the locale wanting to find out more information on personal training, general fitness or weight loss. 
 Young PT will be useful for potential clients to find out more about Lauren, her background and qualifications. Also the types of training available and will include important details such as contact details and training locations. 
 
-![screenshot](assets/images/screenshots/young_pt_mockup.png)
+![screenshot](screenshots/youngpt-mockup.png)
 
 ## Features
 
@@ -16,51 +16,44 @@ Young PT will be useful for potential clients to find out more about Lauren, her
     - The Navigation bar is fully responsive and aligned centrally at the top of all pages and includes links to Home, Training, Pricing and Contact pages. This will ensure the navigation experience is the same across the entire site.
     - The value for the user is a simple navigation method that allows access to any page from any page. 
 
-![screenshot](assets/images/screenshots/young_pt_nav.png)
+![screenshot](screenshots/youngpt-navigation.png)
 
 - Landing page image
 
     - The landing page image features a photo with the Young PT logo and moto overlayed showing the user that this site relates to training.
     - This will introduce the user to the Young PT brand and colour schemes used through the site. 
 
-![screenshot](assets/images/screenshots/young_pt_header.png)
+![screenshot](screenshots/youngpt-landing-image.png)
 
 - Welcome page
 
     - The welcome page provides information on Lauren Young, her background, exprience and qualifications. This also includes details of different types of training available.
-    - This will provide the user with vital information about Lauren and why they should use her services. It also educates the user on various training types that are on offer.
+    - This will provide the user with vital information about Lauren and why they should use her services. It also educates the user on various training types that are on offer, the cost of sessions and cancellation policy.
 
-![screenshot](assets/images/screenshots/young_pt_welcome.png)
+![screenshot](screenshots/youngpt-welcome-page.png)
 
 - Training page
 
     - The training page provides information on the benefits of pysical training, including information on General Health, Weight Loss, Strength Training, Flexibility, Pre/Post Natal training and Mental health.
     - This will provide education on the benefits of a healthy lifestyle and serve as motivation to get active. 
 
-![screenshot](assets/images/screenshots/young_pt_why_train.png)
-
-- Pricing page
-
-    - The pricing page details the cost of 1-2-1 sessions, block booking and group sessions. It also details what is included in each session and shows the cancellation policy.
-    - User will imediately be able to see the cost of sessions, what they can expect from each session and what they need to do should they wish to cancel a booked session.
-
-![screenshot](assets/images/screenshots/young_pt_pricing.png)
+![screenshot](screenshots/youngpt-training-page.png)
 
 - Contact page
 
     - The contact page provides a contact form with fields for name, email and message and lists email and mobile number for Lauren. There is also a picture of Lauren with motivational quote.
     - This will provide the user with multiple options to contact Lauren and also show them what she looks like. 
 
-![screenshot](assets/images/screenshots/young_pt_contact.png)
+![screenshot](screenshots/youngpt-contact-page.png)
 
 - Footer
 
     - The footer contains links to Facebook, Twitter and Instagram and apears on all pages making it easy for users to link to social media.
     - This will allow the user to visit the young PT social sites from every page and encourage them to connect.
 
-![screenshot](assets/images/screenshots/young_pt_footer.png)
+![screenshot](screenshots/youngpt-footer.png)
 
-## Future Features
+### Future Features
 
 - Add animation to the logo on the landing page image to have it move rather just be static.
 - Booking form to allow user to book a session not just contact.
@@ -98,6 +91,12 @@ Continual testing was performed during the development of this site by using Dev
 
     - Stylesheet.css was passed though the official [W3C (Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadamt84.github.io%2FYoungPT%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) and no errors were returned
 
+## DevTools Lighthouse Testing
+
+- Sites scores highly in all areas on Lighthouse
+
+![screenshot](screenshots/lighthouse-testing.png)
+
 ## Bugs Encountered
 
 - Hero image formatting on training.html would leave a large gap to the right when viewed on mobile screen size yet the image appeared perfectly on all other screens. Issue was due to adding a margin to content on the page when a margin was already being applied from a parent element, effectively doubling the margin. Once this was removed the image displayed as expected. 
@@ -124,6 +123,7 @@ This site has been deployed to GitHub Pages. THe steps needed to deploy are list
 
 - Text for website was taken from [Young-PT](http://young-pt.com/) and edited by the developer with permission from site owner
 - Code for social icons on footer was taken from the Love Running a Code Institute walkthough project
+- Input action URL for Contact_Page.html was take from Code Institute
 - Icons used on site were from [Font Awesome](https://fontawesome.com/)
 
 ## Media
