@@ -116,7 +116,6 @@ h2 {
 #options {
     text-align: center;
     width: auto;
-    margin: 5px, 20px, 20px, 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
