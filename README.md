@@ -121,7 +121,7 @@ This site has been deployed to GitHub Pages. The steps needed to deploy are list
 
 ## Content
 
-- Text for website was taken from [Young-PT](http://young-pt.com/) and edited by the developer with permission from site owner
+- Text for welcome, about and qualifications was taken from [Young-PT](http://young-pt.com/) and edited by the developer with permission from site owner
 - Code for social icons on footer was taken from the Love Running a Code Institute walkthough project
 - Input action URL for Contact_Page.html contact form was take from Code Institute
 - Icons used on site were from [Font Awesome](https://fontawesome.com/)
