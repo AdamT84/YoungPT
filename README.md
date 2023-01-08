@@ -93,7 +93,7 @@ Continual testing was performed during the development of this site by using Dev
 
 ## DevTools Lighthouse Testing
 
-- Sites scores highly in all areas on Lighthouse
+- Site scores highly in all areas on Lighthouse
 
 ![screenshot](screenshots/lighthouse-testing.png)
 
@@ -101,15 +101,15 @@ Continual testing was performed during the development of this site by using Dev
 
 - Hero image formatting on training.html would leave a large gap to the right when viewed on mobile screen size yet the image appeared perfectly on all other screens. Issue was due to adding a margin to content on the page when a margin was already being applied from a parent element, effectively doubling the margin. Once this was removed the image displayed as expected. 
 
-- Contact form not sending data giving an 405 error. Issue was cause by and incorrect action URL in the form element.
+- Contact form not giving a response when submitting data. Issue was cause by an incorrect action URL in the form element.
 
 # Deployment
 
-This site has been deployed to GitHub Pages. THe steps needed to deploy are listed below:
+This site has been deployed to GitHub Pages. The steps needed to deploy are listed below:
 
 - In the GitHub repository select settings
-- Once on the settings page select pages from lefthand menu
-- You will now see Build and Deployment options
+- Once on the settings page select pages from left hand menu
+- You will now see "Build and Deployment" options
 - Look for the "Branch" heading
 - Here you will see a drop down menu with the options none and main
 - Select main and then hit save
